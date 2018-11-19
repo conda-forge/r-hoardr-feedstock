@@ -14,9 +14,8 @@ Summary: Suite of tools for managing cached files, targeting use in other R pack
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-hoardr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-hoardr-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-hoardr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-hoardr-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-hoardr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-hoardr-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-hoardr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-hoardr-feedstock)
 
 Current release info
 ====================
