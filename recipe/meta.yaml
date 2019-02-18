@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/hoardr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/hoardr/hoardr_{{ version }}.tar.gz
-  sha256: d929a69672ae4bbfea82202cdcf8d3a12f64e768edc5ce0b23a2ec902df3728d
+  sha256: 819113f0e25da105f120a676b5173872a4144f2f6f354cad14b35f898e76dc54
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
