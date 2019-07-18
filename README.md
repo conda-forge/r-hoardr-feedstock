@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About r-hoardr
 ==============
 
@@ -18,8 +14,15 @@ Summary: Suite of tools for managing cached files, targeting use in other R pack
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-hoardr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-hoardr-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1239&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-hoardr-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -115,6 +118,7 @@ Feedstock Maintainers
 
 * [@bgruening](https://github.com/bgruening/)
 * [@cbrueffer](https://github.com/cbrueffer/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@daler](https://github.com/daler/)
 * [@dbast](https://github.com/dbast/)
 * [@jdblischak](https://github.com/jdblischak/)
