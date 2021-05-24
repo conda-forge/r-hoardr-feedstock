@@ -39,8 +39,6 @@ test:
   commands:
     - $R -e "library('hoardr')"           # [not win]
     - "\"%R%\" -e \"library('hoardr')\""  # [win]
-    - conda inspect linkages -p $PREFIX r-hoardr  # [not win]
-    - conda inspect objects -p $PREFIX r-hoardr  # [osx]
 
 about:
   home: https://github.com/ropensci/hoardr
