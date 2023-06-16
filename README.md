@@ -1,11 +1,11 @@
-About r-hoardr
-==============
+About r-hoardr-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hoardr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/hoardr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-hoardr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Suite of tools for managing cached files, targeting use in other R packages. Uses 'rappdirs' for cross-platform paths. Provides utilities to manage cache directories, including targeting files by path or by key; cached directories can be compressed and uncompressed easily to save disk space.
 
