@@ -1,6 +1,5 @@
 {% set version = "0.5.4" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-hoardr
@@ -13,8 +12,7 @@ source:
   sha256: 4e031ac1317584451c09bc8288ed73fb2d6ceea3c10d29dbb4be08157e489a37
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
