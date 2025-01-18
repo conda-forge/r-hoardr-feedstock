@@ -1,4 +1,4 @@
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/hoardr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/hoardr/hoardr_{{ version }}.tar.gz
-  sha256: 4e031ac1317584451c09bc8288ed73fb2d6ceea3c10d29dbb4be08157e489a37
+  sha256: 6e703357f9bdf887c2640b7e9edc657255dd1dc0457fbca1a5e2d850da0cd439
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
